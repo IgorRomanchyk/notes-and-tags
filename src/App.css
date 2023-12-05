@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.containter {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tagContainet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.listOfNotes {
+  list-style: none;
+  padding: 0;
+}
+
+.closeIcon {
+  cursor: pointer;
+  color: #1976d2;
+  position: absolute;
+  top: 17px;
+  left: 220px;
+}
+
+.textField {
+  width: 250px;
+}
+
+.textField input {
+  padding: 16.5px 16.5px;
+  padding-right: 30px;
+}
